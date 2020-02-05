@@ -1,7 +1,6 @@
-Hello and welcome to this blog. Edit the `index.md` file to change this content. All pages on the blog, including this one, use [Markdown](https://guides.github.com/features/mastering-markdown/). You can include images:
+Hello and welcome to my personal blog.
 
-![Image of fast.ai logo](images/logo.png)
-
-## This is a title
+## My blog posts
+1. [Implementing a TF-IDF Search Engine](https://medium.com/@kartheek_akella/implementing-the-tf-idf-search-engine-5e9a42b1d30b)
 
 And you can include links, like this [link to fast.ai](https://www.fast.ai). Posts will appear after this file. 
