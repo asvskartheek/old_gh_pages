@@ -28,6 +28,7 @@ This very basic way of representing a sentence is called **Binary Representation
 ## Term Frequency (TF)
 Term frequency is more informative than a binary value indicating the presence of a word. In this representation, the value in each dimension is the number of occurences of this word (dimension) in the sentence. For example,<br/>
 s3: "**how are you where are you**"
+
 Sentence | hi | how | are | you | hey | where |
 -- | -- | -- | -- | -- | -- | -- |
 s3 | 0 | 1 | 2 | 2 | 0 | 1
