@@ -191,3 +191,11 @@ for i in results.argsort()[-10:][::-1]:
     Frank Zappa -- Easy Meat
     Billy Joel -- Easy Money
     Stevie Wonder -- Please, Please, Please
+
+## Next Steps
+The full code is available in a [Jupyter Notebook](https://github.com/asvskartheek/Text-Retrieval/blob/master/TF-IDF%20Search%20Engine%20(SKLEARN).ipynb) format.
+Star the [repo](https://github.com/asvskartheek/Text-Retrieval) and Follow me on [GitHub](https://github.com/asvskartheek). If you find any problems with the code present or have suggestions for improvement, add them into Pull Requests.
+
+## Image References
+1. [VSM](http://blog.christianperone.com/2013/09/machine-learning-cosine-similarity-for-vector-space-models-part-iii/)
+2. [TF-IDF](https://pathmind.com/wiki/bagofwords-tf-idf)
