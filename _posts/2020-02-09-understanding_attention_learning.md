@@ -1,4 +1,4 @@
-# Understanding Attention Learning
+# Understanding Attention Learning (Work in Progress :sweat_smile:)
 
 Most of the tutorials or blog posts on **Attention Learning** that I have come across start with seq2seq problem or the Encoder-Decoder architecture. But the concept of using an attention vector is much more universal and can be applied to a wide variety of issues like:
 1. NLP tasks - Named Entity Recognition, Machine Translation etc. [1](#references)
