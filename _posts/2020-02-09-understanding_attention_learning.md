@@ -18,7 +18,9 @@ Given a data point of **D** dimensions, the task is to classify into 0 or 1. Yep
 **Input**: Random initialising D dim vector
 **Output**: Random 0/1. A little twist, the fourth dimension of the input vector is the same as the output value. So, we want the model to approximate the following function.
 
-$$f(X) = X[4]$$
+$$
+f(X) = X[4]
+$$
 This is the ideal function needed to be modelled.
 
 ## Model Design
