@@ -11,20 +11,25 @@ Inspiration for an attention-based approach comes from the human eye. Eye concen
 
 In this post, we'll take a small example and try to understand the concept of attention learning and its internal working.
 
+## Attention Learning
+We assign each feature of the model a weight ranging from 0 to 1, such that, sum of weights of all the features is 1. Then we re-feed the network with weighted input vector, which is then passed on to further layers.
+
 ## Problem Statement
 Given a data point of **D** dimensions, the task is to classify into 0 or 1. Yep, a simple **Binary Classification**.
 
-## Dataset
-**Input**: Random initialising D dim vector
-**Output**: Random 0/1. A little twist, the fourth dimension of the input vector is the same as the output value. So, we want the model to approximate the following function.
-
-$$
-f(X) = X[4]
-$$
-This is the ideal function needed to be modelled.
+## Data Format
+**Input**: A D dim vector
+**Output**: Single Value either 0/1.
 
 ## Model Design
+While developing the model, we do not know the function before hand (Obviously!). Now, we want the model to do 2 things:
+1. Find the most useful (is *informative* a better word..?) features
+2. Find a relationship between the useful features and target.
+
+For the first part, we'll make use of attention learning
 ![](/images/2020-02-09/model_design.png "Model Design")
+
+$f(X) = \frac{X[1]+X[2]}{2}$, is the ideal function needed to be modelled.
 
 ## References
 1. [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
