@@ -13,6 +13,7 @@ In this post, we'll take a small example and try to understand the concept of at
 
 ## Attention Learning
 We assign each feature of the model a weight ranging from 0 to 1, such that, sum of weights of all the features is 1. Then we re-feed the network with weighted input vector, which is then passed on to further layers.
+![](/images/2020-02-09/attention_diagram.png "Attention Working")
 
 ## Problem Statement
 Given a data point of **D** dimensions, the task is to classify into 0 or 1. Yep, a simple **Binary Classification**.
@@ -26,10 +27,10 @@ While developing the model, we do not know the function before hand (Obviously!)
 1. Find the most useful (is *informative* a better word..?) features
 2. Find a relationship between the useful features and target.
 
-For the first part, we'll make use of attention learning
-![](/images/2020-02-09/model_design.png "Model Design")
+For the first part, we'll make use of attention learning. To implement this idea, we'll use a layer with **softmax activation** (to ensure that sum of all the attention values is 1)
 
-$f(X) = \frac{X[1]+X[2]}{2}$, is the ideal function needed to be modelled.
+
+![](/images/2020-02-09/model_design.png "Model Design")
 
 ## References
 1. [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
