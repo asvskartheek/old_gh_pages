@@ -95,7 +95,7 @@ When the first hidden layer i.e, the attention vector is visualised it is very o
 This information can be used to reduce the number of free variables of the network by removing connections from the remaining features, which improves the model generalizability [[4]](#references). Or you can let the connections acknowledging the contribution of the remaining features in a fuzzy way.
 
 ## Why not FNN?
-
+FNNs nned more number of parameters and inner working is translucent sometimes even opaque too.
 
 ## References
 1. [Neural Machine Translation by Jointly Learning to Align and Translate](https://arxiv.org/abs/1409.0473)
