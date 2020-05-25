@@ -5,3 +5,5 @@ I am currently a senior undergraduate student in the Department of Computer Scie
 My primary research interests lie in Machine Learning and Natural Language Processing. Check out the Research tab to know more!
 
 I am a visiting researcher at [Institute of Infocomm Research (I2R) -- A*STAR](https://www.a-star.edu.sg/i2r), Singapore and am fortunate to be advised by [Dr. Sai Praveen Kadiyala](https://www.linkedin.com/in/kadiyala-sai-praveen-92131733/).
+
+You can find my [CV](https://drive.google.com/file/d/1FhL6M1sSnG4JkupIXMFUDW3y1kmlSxJW/view?usp=sharing) here.
