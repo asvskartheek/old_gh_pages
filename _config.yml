@@ -6,13 +6,14 @@
 # https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
 # https://learnxinyminutes.com/docs/yaml/
 
-title: asvs' blog
-description: Description?!! Hmm... Open to suggestions ❤
+title: Kartheek Akella
+description: 
 github_username: asvskartheek
 
 # Email and twitter are optional:
 email: sukruthkartheek@gmail.com
 twitter_username: asvs_kartheek
+# linkedin_username: sukruth-kartheek-0169b9143
 
 # Set this to true to get LaTeX math equation support
 use_math: true
